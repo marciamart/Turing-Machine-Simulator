@@ -1,7 +1,7 @@
 titulo =  w é um número binario multiplo de 3
 Q = {q0,q1,q2}
 F = {q0}
-vazio = {#}
+vazio = {_}
 delta = {
 q0,0 = q0,a,D
 q0,1 = q1,b,D
@@ -10,4 +10,4 @@ q1,0 = q2,a,D
 q2,1 = q2,b,D
 q2,0 = q1,a,D
 }
-w = '0000110'
+w = '00110'

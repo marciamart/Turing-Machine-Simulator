@@ -46,7 +46,7 @@ def runArq():
         elif line.startswith('w'):
             w = line.split('=')[1].strip().strip("'")
             exec(f"w = '{w}'")
-            exec(f"mt = MT({states[0]}, w, len(w), '{vazio}')")
+            exec(f"mt = MT({states[0]}, w, max(1,len(w)), '{vazio}')")
             exec("mt.run()")
 
 if __name__ == "__main__": 
