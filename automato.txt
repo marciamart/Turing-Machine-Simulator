@@ -1,0 +1,15 @@
+titulo = slide
+Q = {q0,q1,q2,q3,q4,qf}
+F = {qf}
+vazio = {#}
+delta = {
+q0,0 = q1,0,D
+q1,1 = q1,1,D
+q1,0 = q2,0,D
+q2,1 = q3,0,E
+q2,0 = qf,B,D
+q3,0 = q4,1,D
+q4,1 = q1,0,E
+q4,0 = q2,0,D
+}
+w = '0110110'    
